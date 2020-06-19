@@ -1,0 +1,19 @@
+body {
+    overflow-x: hidden !important;
+}
+
+.navBarInPosts a {
+    color: #ffffff;
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.bootAlert {
+    position: absolute;
+    right: 10px;
+    width: 150px;
+    top: 60px;
+}
