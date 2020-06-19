@@ -51,7 +51,7 @@ class PostController extends AppController
     {
         $this->view->title = "Post";
         $this->view->registerMetaTag(['name' => 'keywords', 'content' => 'Keys...']);
-        $this->view->registerMetaTag(['name' => 'description', 'content' => 'Pages`s description...']);
+        $this->view->registerMetaTag(['name' => 'description', 'content' => 'Page`s description...']);
         //  $this->layout = 'basic';
         $equip = Categorys::find()->all();
         return $this->render('show',compact('equip'));

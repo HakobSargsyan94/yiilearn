@@ -8,7 +8,7 @@
 <?php
 
 foreach ($equip as $key) {
-    debug($key['title']);
+    echo "<h1 style='color: red'>" . $key['title'] . "</h1>";
 }
 //$this->registerJsFile('@web/js/scripts.js',['depends' => 'yii\web\YiiAsset']);
 //$this->registerJs('$(\'.container\').append(`<div>Hello append</div>`);',\yii\web\View::POS_LOAD);
